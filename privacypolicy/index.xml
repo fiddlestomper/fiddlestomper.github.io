@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privacy Policy on Pär Persson Mattsson | Fiddlestomper</title>
-    <link>https://examplesite.com/privacypolicy/</link>
+    <link>https://fiddlestomper.github.io/privacypolicy/</link>
     <description>Recent content in Privacy Policy on Pär Persson Mattsson | Fiddlestomper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright>
     <lastBuildDate>Mon, 18 May 2020 13:05:29 +0600</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/privacypolicy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fiddlestomper.github.io/privacypolicy/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
