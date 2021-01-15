@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Impressum on Pär Persson Mattsson | Fiddlestomper</title>
-    <link>https://fiddlestomper.com/imprint/</link>
+    <link>https://www.fiddlestomper.com/imprint/</link>
     <description>Recent content in Impressum on Pär Persson Mattsson | Fiddlestomper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright>
     <lastBuildDate>Mon, 18 May 2020 13:05:29 +0600</lastBuildDate>
     
-	<atom:link href="https://fiddlestomper.com/imprint/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.fiddlestomper.com/imprint/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

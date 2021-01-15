@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Book me for a concert, workshop, or lesson on Pär Persson Mattsson | Fiddlestomper</title>
-    <link>https://fiddlestomper.com/contact/</link>
+    <link>https://www.fiddlestomper.com/contact/</link>
     <description>Recent content in Book me for a concert, workshop, or lesson on Pär Persson Mattsson | Fiddlestomper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright>
     
-	<atom:link href="https://fiddlestomper.com/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.fiddlestomper.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
