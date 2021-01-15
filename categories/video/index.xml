@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Pär Persson Mattsson | Fiddlestomper</title>
+    <link>https://examplesite.com/categories/video/</link>
+    <description>Recent content in Video on Pär Persson Mattsson | Fiddlestomper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright>
+    <lastBuildDate>Sun, 17 Mar 2019 11:54:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/categories/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chinquapin Hunting</title>
+      <link>https://examplesite.com/blog/chinquapinhunting/</link>
+      <pubDate>Sun, 17 Mar 2019 11:54:10 +0200</pubDate>
+      
+      <guid>https://examplesite.com/blog/chinquapinhunting/</guid>
+      <description>This week&amp;rsquo;s tune for Fiddling Friday is Chinquapin Hunting, played in the tuning of GDGD.
+  This is a tune that I first learned from a YouTube video, and it was also the first video where I saw the one and only Rushad Eggleston.</description>
+    </item>
+    
+  </channel>
+</rss>
