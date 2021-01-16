@@ -90,10 +90,6 @@
   </url>
   
   <url>
-    <loc>https://www.fiddlestomper.com/newsletter/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.fiddlestomper.com/events/</loc>
   </url>
   
@@ -135,6 +131,10 @@
   
   <url>
     <loc>https://www.fiddlestomper.com/photo/rio-furniture-1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.fiddlestomper.com/newsletter/</loc>
   </url>
   
 </urlset>
