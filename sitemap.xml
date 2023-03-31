@@ -1,144 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.fiddlestomper.com/imprint/</loc>
     <lastmod>2020-05-18T13:05:29+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fiddlestomper.com/privacypolicy/</loc>
-    <lastmod>2020-05-18T13:05:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/</loc>
     <lastmod>2020-05-18T13:05:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.fiddlestomper.com/privacypolicy/</loc>
+    <lastmod>2020-05-18T13:05:29+06:00</lastmod>
+  </url><url>
     <loc>https://www.fiddlestomper.com/categories/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/blog/chinquapinhunting/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/blog/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/tags/oldtime/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/tags/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/tags/video/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/categories/video/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/tags/youtube/</loc>
     <lastmod>2019-03-17T11:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/events/2018-09-13_vinylreservat/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/events/2019-03-15_dabis/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/events/2019-09-14_kleinerratskeller/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/events/2019-11-28_kim/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/events/2019-11-30_vinylreservat/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/events/2020-01-30_ws_elmstein/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/author/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/contact/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/events/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/sheetmusic/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/music/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/pricing/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.fiddlestomper.com/photo/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/author/paer/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.fiddlestomper.com/photo/</loc>
+  </url><url>
     <loc>https://www.fiddlestomper.com/photo/rio-furniture-2/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/photo/rio-furniture-3/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/photo/rio-furniture-4/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/photo/rio-furniture-5/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/photo/rio-furniture-6/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/photo/rio-furniture-1/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.fiddlestomper.com/newsletter/</loc>
   </url>
-  
 </urlset>

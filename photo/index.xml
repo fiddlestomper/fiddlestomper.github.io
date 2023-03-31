@@ -6,11 +6,7 @@
     <description>Recent content in Photography on Pär Persson Mattsson | Fiddlestomper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright>
-    
-	<atom:link href="https://www.fiddlestomper.com/photo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright><atom:link href="https://www.fiddlestomper.com/photo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rio Furniture</title>
       <link>https://www.fiddlestomper.com/photo/rio-furniture-2/</link>
@@ -62,7 +58,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.fiddlestomper.com/photo/rio-furniture-1/</guid>
-      <description>            </description>
+      <description> </description>
     </item>
     
   </channel>

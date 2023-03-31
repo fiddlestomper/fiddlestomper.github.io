@@ -6,10 +6,6 @@
     <description>Recent content in Sign up for my newsletter! on Pär Persson Mattsson | Fiddlestomper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright>
-    
-	<atom:link href="https://www.fiddlestomper.com/newsletter/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright &amp;copy; 2021. All Rights Reserved. Powered by Hugo with theme by [Themefisher](https://themefisher.com). </copyright><atom:link href="https://www.fiddlestomper.com/newsletter/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
