@@ -2,10 +2,51 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
   <div class="row">
-    <div class="col-lg-8">
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
+    <div class="col-lg-12">
+      <div class="content-column-content">
+        <h1>{{ .Title }}</h1>
+      </div>
     </div>
+  </div>
+  <div class="grid">
+  <div class="row">
+    {{ $dir := string "/fotos" }}\
+    <div class="pswp-gallery" id="my-gallery">
+        {{ range (readDir (print "/assets" $dir)) }}
+        
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 masonry-item">
+      
+        
+        {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
+        {{- $imageurl := printf "%s/%s" $dir .Name -}}
+        {{- $imagetitle := index (split .Name ".") 0 -}}
+        <div class="box-masonry"
+          height="{{ ($image.Fit " 200x200 q50").Height }}"
+          width="{{ ($image.Fit " 200x200 q50").Width }}"
+        >
+          <a
+          href="{{ ($image.Fit " 1600x1600 q50").Permalink }}"
+          data-pswp-width="{{ ($image.Fit " 1600x1600 q50").Width}}"
+          data-pswp-height="{{ ($image.Fit " 1600x1600 q50").Height }}"
+          height="{{ ($image.Fit " 200x200 q50").Height }}"
+          width="{{ ($image.Fit " 200x200 q50").Width }}"
+          target="_blank"
+          class="box-masonry-image">
+            <img src="{{ ($image.Fit " 200x200 q50").Permalink }}" alt=""
+             height="{{ ($image.Fit " 200x200 q50").Height }}"
+             width="{{ ($image.Fit " 200x200 q50").Width }}"
+             />
+          </a>
+        </div>
+          
+
+        
+        
+      </div>
+      {{ end }}
+    </div>
+    
+  </div>
   </div>
 </div>
 {{ end }}

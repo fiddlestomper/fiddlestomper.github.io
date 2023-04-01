@@ -1,15 +1,30 @@
 <script src="{{ "js/jquery.min.js" | absURL }}"></script>
 <script src="{{ "js/bootstrap.min.js" | absURL }}"></script>
 <script src="{{ "js/jquery.cookie.js" | absURL }}"> </script>
-<script src="{{ "js/ekko-lightbox.js" | absURL }}"></script>
+#<script src="{{ "js/ekko-lightbox.js" | absURL }}"></script>
 <script src="{{ "js/jquery.scrollTo.min.js" | absURL }}"></script>
 <script src="{{ "js/masonry.pkgd.min.js" | absURL }}"></script>
 <script src="{{ "js/imagesloaded.pkgd.min.js" | absURL }}"></script>
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 <script src="{{ "js/front.js" | absURL }}"></script>
-<script type="text/javascript" src="/js/lightbox.js"></script>
-<link rel="stylesheet" href="/css/lightbox.css">
+<script type="module">
+  // Include Lightbox 
+  import PhotoSwipeLightbox from '/js/photoswipe-lightbox.esm.min.js';
+  import PhotoSwipe from '/js/photoswipe.esm.min.js';
 
+  const options = {
+    // may select multiple "galleries"
+    gallery: '#my-gallery',
+    // Elements within gallery (slides)
+    children: 'a',
+    // setup PhotoSwipe Core dynamic import
+    pswpModule: PhotoSwipe,
+    mainClass: 'pswp-with-perma-preloader',
+    padding: { top: 20, bottom: 40, left: 100, right: 100 }
+  };
+  const lightbox = new PhotoSwipeLightbox(options);
+  lightbox.init();
+</script>
 {{ if .Site.Params.analytics.matomo }}
   {{ partial "_analytics/matomo.html" . }}
 {{ end }}
