@@ -14,11 +14,14 @@ googleAnalytics = ""
   style = "blue"
   description = "Describe your website"
   copyright = "&copy;2023 Pär Persson Mattsson"
+  sidebarImage = "/images/fiddle_smiling.jpg"
   sidebarAbout = [
-    "<img src='/img/fiddle_smiling.jpg' alt='Pär hält eine Geige in der Hand und lächelt'>",
     "Geiger und Banjospieler, der dazu auch noch Fotos macht.",
     "Ursprunglich aus Svärdsjö, Schweden, zurzeit wohnhaft in Göttingen, Deutschland."
   ]
+  # Link images for front page
+  fotoImage = "/images/foto.jpg"
+  musicImage = "/images/musik.jpg"
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
@@ -45,8 +48,12 @@ googleAnalytics = ""
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Home"
-  url = "portfolio/"
+  url = "home/"
   home = true
+
+  [[params.navlinks]]
+  name = "Foto"
+  url = "foto/"
 
   [[params.navlinks]]
   name = "Musik"
