@@ -14,27 +14,27 @@
     <div class="pswp-gallery" id="my-gallery">
         {{ range (readDir (print "/assets" $dir)) }}
         
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 masonry-item">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 masonry-item">
       
         
         {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
         {{- $imageurl := printf "%s/%s" $dir .Name -}}
         {{- $imagetitle := index (split .Name ".") 0 -}}
         <div class="box-masonry"
-          height="{{ ($image.Fit " 200x200 q50").Height }}"
-          width="{{ ($image.Fit " 200x200 q50").Width }}"
+          height="{{ ($image.Fit " 400x400 q100").Height }}"
+          width="{{ ($image.Fit " 400x400 q100").Width }}"
         >
           <a
-          href="{{ ($image.Fit " 1600x1600 q50").Permalink }}"
-          data-pswp-width="{{ ($image.Fit " 1600x1600 q50").Width}}"
-          data-pswp-height="{{ ($image.Fit " 1600x1600 q50").Height }}"
-          height="{{ ($image.Fit " 200x200 q50").Height }}"
-          width="{{ ($image.Fit " 200x200 q50").Width }}"
+          href="{{ ($image.Fit " 1600x1600 q100").Permalink }}"
+          data-pswp-width="{{ ($image.Fit " 1600x1600 q100").Width}}"
+          data-pswp-height="{{ ($image.Fit " 1600x1600 q100").Height }}"
+          height="{{ ($image.Fit " 200x200 q100").Height }}"
+          width="{{ ($image.Fit " 200x200 q100").Width }}"
           target="_blank"
           class="box-masonry-image">
-            <img src="{{ ($image.Fit " 200x200 q50").Permalink }}" alt=""
-             height="{{ ($image.Fit " 200x200 q50").Height }}"
-             width="{{ ($image.Fit " 200x200 q50").Width }}"
+            <img src="{{ ($image.Fit " 400x400 q100").Permalink }}" alt=""
+             height="{{ ($image.Fit " 400x400 q100").Height }}"
+             width="{{ ($image.Fit " 400x400 q100").Width }}"
              />
           </a>
         </div>
