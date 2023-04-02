@@ -1,24 +1,28 @@
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <ul class="sidebar-menu">
+      {{ range .Site.Params.navlinks }}
+        <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
     {{- $image := resources.Get .Site.Params.sidebarImage -}}
     <img src="{{ ($image.Fill "400x400 q80").Permalink }}" alt='Pär hält eine Geige in der Hand und lächelt'>
     <br>
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}
-    <ul class="sidebar-menu">
-      {{ range .Site.Params.navlinks }}
-        <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
-      {{ end }}
-    </ul>
+    
     {{ partial "social_buttons_in_sidebar.html" . }}
 
     <div class="copyright">
       <p class="credit">
+        
         {{ with .Site.Params.copyright }}
           {{ . | safeHTML }}
         {{ end }}
+        
+          
         <br>
         <br>
         {{ partial "imprint.html" . }}

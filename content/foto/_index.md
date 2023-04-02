@@ -3,4 +3,4 @@ date = "2016-11-05T21:05:33+05:30"
 title = "Fotografie"
 +++	
 
-{{< gallery gallery_dir="/fotos" >}}
+{{< gallery gallery_dir="/fotos/landscape" >}}
