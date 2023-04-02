@@ -8,45 +8,6 @@
       </div>
     </div>
   </div>
-  <div class="grid">
-  <div class="row">
-    {{ $dir := string "/fotos" }}\
-    <div class="pswp-gallery" id="my-gallery">
-        {{ range (readDir (print "/assets" $dir)) }}
-        
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 masonry-item">
-      
-        
-        {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
-        {{- $imageurl := printf "%s/%s" $dir .Name -}}
-        {{- $imagetitle := index (split .Name ".") 0 -}}
-        <div class="box-masonry"
-          height="{{ ($image.Fit " 400x400 q100").Height }}"
-          width="{{ ($image.Fit " 400x400 q100").Width }}"
-        >
-          <a
-          href="{{ ($image.Fit " 1600x1600 q100").Permalink }}"
-          data-pswp-width="{{ ($image.Fit " 1600x1600 q100").Width}}"
-          data-pswp-height="{{ ($image.Fit " 1600x1600 q100").Height }}"
-          height="{{ ($image.Fit " 200x200 q100").Height }}"
-          width="{{ ($image.Fit " 200x200 q100").Width }}"
-          target="_blank"
-          class="box-masonry-image">
-            <img src="{{ ($image.Fit " 400x400 q100").Permalink }}" alt=""
-             height="{{ ($image.Fit " 400x400 q100").Height }}"
-             width="{{ ($image.Fit " 400x400 q100").Width }}"
-             />
-          </a>
-        </div>
-          
-
-        
-        
-      </div>
-      {{ end }}
-    </div>
-    
-  </div>
-  </div>
+  {{ .Content }}
 </div>
 {{ end }}
