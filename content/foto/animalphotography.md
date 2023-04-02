@@ -1,10 +1,10 @@
 +++
 date = "2023-04-01T00:00:00+02:00"
-title = "Vogelfotografie"
+title = "Tierfotografie"
 draft = false
-image = "/images/birdphotography.jpg"
+image = "/images/animalphotography.jpg"
 showonlyimage = false
-weight = 1
+weight = 2
 type = "foto"
 +++
 

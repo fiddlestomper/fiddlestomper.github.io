@@ -54,7 +54,7 @@ googleAnalytics = ""
 
   [[params.navlinks]]
   name = "Foto"
-  url = "portfolio/"
+  url = "foto/"
 
   [[params.navlinks]]
   name = "Musik"

@@ -4,7 +4,7 @@ title = "Stadtfotografie"
 draft = false
 image = "/images/streetphotography.jpg"
 showonlyimage = false
-weight = 1
+weight = 0
 type = "foto"
 +++
 
