@@ -7,7 +7,7 @@
       {{ end }}
     </ul>
     {{- $image := resources.Get .Site.Params.sidebarImage -}}
-    <img src="{{ ($image.Fill "400x400 q80").Permalink }}" alt='Pär hält eine Geige in der Hand und lächelt'>
+    <img src="{{ ($image.Fill "300x300 q80").Permalink }}" alt='Pär hält eine Geige in der Hand und lächelt'>
     <br>
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
