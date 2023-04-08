@@ -20,4 +20,4 @@ Heute fotografiere ich das, was die Jahreszeit so anbietet, hauptsächlich aber 
 
 ![Pär Persson Mattsson][1]
 
-[1]: /img/portrait.jpg
+[1]: /images/portrait.jpg
