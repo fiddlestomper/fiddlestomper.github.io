@@ -15,13 +15,13 @@ Herzlich willkommen auf der inoffizielle Website der Göttinger Old-Time-Jam. Hi
 ## Tuneliste
 
 #### Tunes des Monats, April 2023
-Chips & sauce
-Five miles from town
-Red Praire Dawn
+* Chips & sauce
+* Five miles from town
+* Red Praire Dawn
 
 #### Tunes des Monats, Mai 2023
-Big footed man in the sandy lot
-Dance all night with a bottle in your hand
+* Big footed man in the sandy lot
+* Dance all night with a bottle in your hand
 
 #### Tunes, die wir schon mal gespielt haben
 
