@@ -14,10 +14,12 @@ Herzlich willkommen auf der inoffizielle Website der Göttinger Old-Time-Jam. Hi
 
 ## Tuneliste
 
+[Youtube-Playlist mit einigen Tunes, schnell und/oder langsam gespielt.](https://www.youtube.com/playlist?list=PL6yCzXsHS1TCYN0YqojSF2igIcHimkr90)
+
 #### Tunes des Monats, April 2023
-* Chips & sauce
-* Five miles from town
-* Red Praire Dawn
+* Chips & sauce (A)
+* Five miles from town (A)
+* [Red Praire Dawn (A)](https://youtu.be/hEmJrmffbH8)
 
 #### Tunes des Monats, Mai 2023
 * Big footed man in the sandy lot
