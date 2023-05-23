@@ -7,7 +7,7 @@ Herzlich willkommen auf der inoffizielle Website der Göttinger Old-Time-Jam. Hi
 
 ## Nächster Jam
 
-* Wann: 2023-04-26, 20:00
+* Wann: 2023-05-24, 19:30-ish
 * Wo: Kleiner Ratskeller, Jüdenstraße 30, 37073 Göttingen
 
 ----
@@ -15,11 +15,6 @@ Herzlich willkommen auf der inoffizielle Website der Göttinger Old-Time-Jam. Hi
 ## Tuneliste
 
 [Youtube-Playlist mit einigen Tunes, schnell und/oder langsam gespielt.](https://www.youtube.com/playlist?list=PL6yCzXsHS1TCYN0YqojSF2igIcHimkr90)
-
-#### Tunes des Monats, April 2023
-* Chips & sauce (A)
-* Five miles from town (A)
-* [Red Praire Dawn (A)](https://youtu.be/hEmJrmffbH8)
 
 #### Tunes des Monats, Mai 2023
 * Big footed man in the sandy lot
