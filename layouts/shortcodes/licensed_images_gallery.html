@@ -2,7 +2,6 @@
 <div class="grid">
   <div class="row">
 
-    <div class="pswp-gallery" id="my-gallery">
       {{ range (readDir (print "/assets" $dir)) }}
         {{ if and (not .IsDir) (eq (path.Ext .Name) ".jpg") }}
 
@@ -11,27 +10,45 @@
               {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
               {{- $imageurl := printf "%s/%s" $dir .Name -}}
               {{- $imagetitle := index (split .Name ".") 0 -}}
+              
                   <img
-                    src="{{ ($image.Fit " 1024x1024 q80").Permalink }}"
+                    src="{{ ($image.Fit " 512x512 q80").Permalink }}"
                     alt=""
-                    height="{{ ($image.Fit " 1024x1024 q80").Height }}"
-                    width="{{ ($image.Fit " 1024x1024 q80").Width }}" />
+                    height="{{ ($image.Fit " 512x512 q80").Height }}"
+                    width="{{ ($image.Fit " 512x512 q80").Width }}"
+                    style="margin: 0; align: left;"
+                    />
                 </a>
-                {{ $imageurl }}
                 <div class="download-links">
+                  {{ $parts := split $imagetitle "-" }}
+                  {{ $locationName := replace (index $parts 0) "_" " " }}
+                  {{ $id := index $parts 1 }}
+                  {{ $formattedString := printf "%s, %s" $id $locationName }}
+
                   {{- $basename := index (split .Name ".") 0 -}}
-                  {{- $webPath := printf "%s/web/%s-web.jpg" $dir $basename -}}
-                  {{- $printPath := printf "%s/print/%s-print.jpg" $dir $basename -}}
-                  <a href="{{ $webPath | relURL }}" target="_blank">Download Web Optimized</a>
-                  <br>
-                  <a href="{{ $printPath | absURL }}" target="_blank">Download Print Optimized</a>
+                  {{- $webPath := printf "/images/educational_nonprofit/web/%s-web.jpg" $basename -}}
+                  {{- $printPath := printf "/images/educational_nonprofit/print/%s-print.jpg" $basename -}}
+
+                  <ul>
+                    <li>
+                      ID: {{ $id }}
+                    </li>
+                    <li>
+                      Location: {{ $locationName }}
+                    </li>
+                    <li>
+                      <a href="{{ $webPath }}" target="_blank" download>Download Web Optimized</a>
+                    </li>
+                    <li>
+                      <a href="{{ $printPath | absURL }}" download>Download Print Optimized</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
+          </div>
           </div>
 
         {{ end }}
       {{ end }}
-    </div>
 
   </div>
 </div>

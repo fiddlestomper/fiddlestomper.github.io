@@ -3,8 +3,6 @@ date = "2016-11-05T21:05:33+05:30"
 title = "Images for educational and non-profit use"
 +++
 
-{{< licensed_images_gallery gallery_dir="/fotos/educational_nonprofit" >}}
-
 
 #### Copyright Notice for Images on this page:
 
@@ -37,4 +35,8 @@ For inquiries regarding commercial licensing or use in grant-seeking purposes, p
 ##### Links for inclusion:
 - Website - www.fiddlestomper.com
 - Instagram - [@photographingfiddler](https://www.instagram.com/photographingfiddler/)
+
+---
+
+{{< licensed_images_gallery gallery_dir="/fotos/educational_nonprofit" >}}
 
