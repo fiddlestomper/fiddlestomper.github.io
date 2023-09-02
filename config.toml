@@ -53,10 +53,6 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
-  name = "Foto"
-  url = "foto/"
-
-  [[params.navlinks]]
   name = "Musik"
   url = "musik/"
 
@@ -74,5 +70,4 @@ googleAnalytics = ""
 
   [params.social]
   email         = "par@fiddlestomper.com"
-  instagram     = "https://www.instagram.com/fiddling_and_footstomping/"
   youtube       = "https://www.youtube.com/channel/UCCAKdKHGW2KUdbmLCd4d3eg"

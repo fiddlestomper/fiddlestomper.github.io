@@ -13,11 +13,7 @@ Mit der Zeit wurden es immer mehr Musik und immer mehr Musikrichtungen. Heutzuta
 
 #### Fotografie
 
-Auch das Interesse für das Fotografieren habe ich, seit ich ein Kind war. Mein Mutter hat schon immer sehr gerne fotografiert und hat auch eine alte Fotoentwicklungsausrüstung. Diese habe ich als Student ausgeliehen, um ein Prokrastinationshobby zu haben. Nach und nach habe ich angefangen, mich mehr mit der Fotografie zu beschäftigen, da es auch dazu führt, dass man anfängt, nach Schönheit überall in der Welt zu suchen.
-
-Heute fotografiere ich das, was die Jahreszeit anbietet, hauptsächlich aber Natur, Tiere, und Landschaften, da ich mich unheimlich gerne in der Natur herumtreibe.
-
-Portraits fasziniert mich auch und sie werden eines von meinen nächsten Projekte sein.
+Mehr über meine fotografische Tätigkeit finden Sie auf [www.photographingfiddler.com](https://www.photographingfiddler.com/).
 
 ![Pär Persson Mattsson][1]
 

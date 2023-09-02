@@ -9,7 +9,7 @@ title = "Images for educational and non-profit use"
 The images located under http://www.fiddlestomper.com/educational_and_nonprofit_images/ are copyrighted material. They are free for use for non-commercial and educational purposes, provided that the following conditions are met:
 
 ##### For Web Use:
-- The images must include the copyright notice “© Pär Persson Mattsson, www.fiddlestomper.com” or “© Pär Persson Mattsson, Instagram: @photographingfiddler”.
+- The images must include the copyright notice “© Pär Persson Mattsson, www.photographingfiddler.com” or “© Pär Persson Mattsson, Instagram: @photographingfiddler”.
 - Wherever possible, a link to the copyright holder's website and/or Instagram profile should be included alongside the image.
 
 ##### For Social Media Use:
@@ -17,7 +17,7 @@ The images located under http://www.fiddlestomper.com/educational_and_nonprofit_
 - The post should mention and/or include a link to the copyright holder’s social media pages.
 
 ##### For Print Media Use:
-- The images must include the copyright notice “© Pär Persson Mattsson, www.fiddlestomper.com” in a clearly visible location.
+- The images must include the copyright notice “© Pär Persson Mattsson, www.photographingfiddler.com” in a clearly visible location.
 
 
 ##### Commercial use or grant-seeking
@@ -33,7 +33,7 @@ The copyright holder reserves the right to modify or revoke the permissions gran
 For inquiries regarding commercial licensing or use in grant-seeking purposes, please contact the copyright holder.
 
 ##### Links for inclusion:
-- Website - www.fiddlestomper.com
+- Website - www.photographingfiddler.com
 - Instagram - [@photographingfiddler](https://www.instagram.com/photographingfiddler/)
 
 ---

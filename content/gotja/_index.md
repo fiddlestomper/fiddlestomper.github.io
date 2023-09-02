@@ -7,7 +7,7 @@ Herzlich willkommen auf der inoffizielle Website der Göttinger Old-Time-Jam. Hi
 
 ## Nächster Jam
 
-* Wann: 2023-05-24, 19:30-ish
+* Wann: 2023-09-27, 19:30-ish
 * Wo: Kleiner Ratskeller, Jüdenstraße 30, 37073 Göttingen
 
 ----
