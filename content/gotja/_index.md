@@ -135,7 +135,10 @@ Statistik seit Anfang 2024
 * Possum on a Rail
 * Red Prairie Dawn (Tune des Monats April 2023)
 * Waynesboro
+* [Whiteface][1]
 
 ##### C-Tunes
 * The Fun's all Over
 * Four Cent Cotton
+
+[1]: /scores/Whiteface.pdf
